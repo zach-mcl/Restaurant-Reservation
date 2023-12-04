@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-flat.css">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Log In</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <style>
+    body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #aaf0d1;  
+    }
+
+.center-container {
+    width: 100%;
+    max-width: 400px; 
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+    background: white;
+    border-radius: 8px; 
+    margin: 15px; 
+}
+.user-login {
+    background-color: #004d40b9; 
+    color: white;
+    margin-top: -10px; 
+    margin-bottom: 20px; 
+    
+}
+.login-header{
+    max-width: 200px;
+    margin: 0 auto;
+    text-align: center;
+}
+    </style>
+    <body >
+        <script src="/server.js"></script>
+        <div class="center-container">
+        <form action="/" method="POST" class="w3-container w3-light-grey w3-border" >
+            
+            <h1 id="logHeader" class="w3-container w3-teal" >Taste of The Town</h1>
+            <div class="login-header">
+            <p class="user-login">User Login</p>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input class="w3-input w3-hover-border-teal w3-border" type="text" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="password">Password:</label>
+                <input class="w3-input w3-hover-border-teal w3-border w3-round" type="text" id="password" name="password" required>
+            </div>
+            <section style=" margin: 10px;display: flex; justify-content: center; gap: 10px;" >
+                <button class="w3-button w3-teal" type="submit" onclick="displayUser() " >Login</button>
+                
+            </section>
+            
+        </form>
+        <a href="/register" class="w3-button w3-teal" >Create Login</a>
+    </div>
+    </body>
+
+</html>
