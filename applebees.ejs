@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Taste of Town - Applebees</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    </head>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            background-color: #aaf0d1; 
+        }
+        #reserveCard {
+            width: 20%;
+            max-width: 20%;
+            height: 490px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            background: white;
+            border-radius: 8px;
+            margin-top: 1%;
+            margin-left: 3%;
+        }
+        #infoCard{
+            width: 20%;
+            max-width: 80%;
+            height: 490px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            background: white;
+            border-radius: 8px;
+            margin-top: 1%;
+            margin-left: 3%;
+            margin-right: 1%;
+        }
+        #lignUp{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+    <body>
+        <div class="w3-display-container">
+            <img src="https://cdn.winsightmedia.com/platform/files/public/2023-03/background/applebees%20%283%29.jpg?VersionId=XIBCjp9FZRaUMREgUqBJnm0WLj2p_M7d" style="height: 300px; width: fit-content; object-fit: cover;" alt="Applebees Restaurant" class="w3-round">
+            <div class="w3-display-bottommiddle w3-large w3-panel w3-teal w3-round" style="text-shadow:1px 1px 0 #444; font-weight: 900;"><b style="color: white;">AppleBees</b></div>
+            <div class="w3-display-topleft w3-large w3-panel w3-teal w3-round" style="text-shadow:1px 1px 0 #444; font-weight: 900; margin-left: 2%;"><a href="/home"><b style="color: white;">Return Home</b></a></div>
+        </div>
+        <div id="lignUp">
+            <div class="w3-card" id="reserveCard">
+                <header class="w3-container w3-teal w3-round">
+                    <h5 style="text-align: center;">Hop in line</h5>
+                </header>
+                <div class="w3-container" style="margin-top: 48%;">
+                    <h4 style="text-align: center;">There are currently</h4>
+                    <h1 style="text-align: center;">x</h1>
+                    <h4 style="text-align: center;"> people in front of you</h4>
+                </div>
+                <footer class="w3-container w3-teal w3-round" style="margin-top: 45%;">
+                    <button class=""style="margin-left: 34%;">Hop In!</button>
+                </footer>
+            </div>
+            <div class="w3-card" id="infoCard">
+                <header class="w3-container">
+                    <h3 style="text-align: left;"><b>Information:</b></h3>
+                </header>
+                <div class="w3-container">
+                    <div>
+                        <p><b>Phone:</b> (573) 442-3640</p>
+                        <p><b>Address:</b> 2601 E Broadway, Columbia, MO 65201</p>
+                        <p><b>Website:</b> <a href="http://www.applebees.com">applebees.com</a></p>
+                        <p><b>Ratings:</b> 3.9/5</p>
+                        <p><b>Hours:</b></p>
+                        <div>
+                        <p>Mon-Thu: 11am - 11pm</p>
+                        <p>Fri: 11am - 12am</p>
+                        <p>Sat: 11am - 12am</p>
+                        <p>Sun: 11am - 10pm</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
