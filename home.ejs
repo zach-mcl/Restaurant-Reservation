@@ -3,13 +3,35 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Home</title>
+        <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+        <style>
+            body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            color: #aaf0d1; 
+        }
+        </style>
     </head>
-    <body>
-        <script src="/server.js"></script>
+
+    <body class="w3-container">
+        <div class="w3-round w3-large w3-teal w3-twothird"> <br>
+            <h1 class="w3-center w3-jumbo">Taste of the Town</h1>
+            <h2 class="w3-center">Welcome: bum ass</h2> <br>
         
+            <form action="/search" method="get" class="w3-center">
+                <label for="search">Search:</label>
+                <input type="text" id="search" name="q" placeholder="Enter your search term">
+                <button type="submit" class="w3-button w3-black w3-round">Search</button>
+            </form> <br><br>
+        </div>
+
+        <script src="" async defer></script>
     </body>
 </html>
